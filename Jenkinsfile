@@ -23,8 +23,8 @@ pipeline{
             steps {
                 sh "echo \"this is stage complete !\" "
             }
-        } 
-        stage ("polling test"){
+        }         
+        stage ("bug branch polling"){
             steps {
                 sh "echo \"jenkins should trigger build now !\" "
             }
